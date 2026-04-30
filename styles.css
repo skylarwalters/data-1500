@@ -1,40 +1,164 @@
-img, p, h1, h2, .divider {
-	width: 100%;
-	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-img {
-	display: block;
-    padding: 15px 0px;
-
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #1f1a17;
 }
 
 p {
-	font-size: 18px;
-	line-height: 1.4;
-    font-family: "Crimson Text";
+  font-size: 16pt;
+  line-height: 1.7;
+}
+h3 {
+  font-size: 18pt;
+  line-height: 1.7;
+}
+a {
+  color: #32486b;
 }
 
-h1, h2 { 
-    font-family: "Roboto";
-}
-    
-.divider {
-    height: 2px;
-    background-color: #0868ac;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-    
-.goated{
-    color:blueviolet;
-    font-weight:900;
-    font-size: xx-large;
-    font-family: "Roboto"
+
+
+.open {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url('images/header.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.big-img{
-    max-width: 1000px;
+.open h1 {
+  color: white;
+  font-size: clamp(2rem, 5vw, 5rem);
+  text-align: center;
+  background: rgba(0,0,0,0.35);
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
 }
+
+
+/* general text */
+
+.full-width{
+  width: 80vw;
+  height: auto;
+  display: block;
+}
+
+.text-container {
+  width: 60%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .text-container {
+    width: 90%;
+  }
+}
+
+
+/* caption placement */
+.caption {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.caption img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.caption p {
+  margin-top:0;
+  font-style: italic;
+  font-size: 11pt;
+  color: grey;
+}
+
+
+
+/* caption placement */
+.caption-2 {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.caption-2 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.caption-2 p {
+  margin-top:0;
+  font-style: italic;
+  font-size: 11pt;
+  color: grey;
+}
+
+
+/* warren dominates */
+.warren-dominates {
+  display: block;
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* map */
+.map {
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+
+/* map */
+.desperate {
+  display: block;
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* map */
+.smallwhale {
+  display: block;
+  width: 10%;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+/*barrel boys */
+.bottom-image {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .text-container {
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+  
+  .masthead-wrap {
+    float: right;
+    width: 40%;
+    height: auto;
+    margin: 0 0 1rem 1.5rem;
+    shape-outside: url("images/awesome_masthead.png");
+    shape-margin: 12px;
+    display: block;
+  }
