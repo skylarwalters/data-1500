@@ -65,6 +65,17 @@ a {
   }
 }
 
+.footer {
+  width: 80%;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .footer {
+    width: 90%;
+  }
+}
+
+
 
 /* caption placement */
 .caption {
